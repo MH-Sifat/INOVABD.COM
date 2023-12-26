@@ -1,0 +1,18 @@
+
+.slick-prev:before,
+.slick-next:before {
+    color: #252525 !important;
+    font-size: 24px !important;
+}
+
+.slick-dots{
+    position: relative !important;
+    bottom:1px !important;
+}
+
+div{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+
+}

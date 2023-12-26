@@ -1,0 +1,55 @@
+/* link{
+    background-color: aqua;
+} */
+
+
+nav {
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.foot-link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.foot-link:hover {
+    color: white !important;
+    opacity: 1;
+}
+
+.foot-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.foot-link:hover:after {
+    color: #fff !important;
+    border-radius: 50%;
+    transform: scaleX(95%);
+    transform-origin: center;
+}
+
+.copy-right {
+    font-size: 11px;
+    color: #fff;
+}
+
+.copy-right p {
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.4;
+}

@@ -1,0 +1,51 @@
+ul,
+p {
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* @media (min-width: 400px) {
+    .navbar-center p {
+        display: none;
+    }
+} */
+
+.navbar {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+
+.link {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black !important;
+}
+
+.link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+    color: black !important;
+    border-radius: 50%;
+    transform: scaleX(95%);
+    transform-origin: center;
+}

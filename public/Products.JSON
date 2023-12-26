@@ -1,0 +1,253 @@
+[
+    {
+        "id": 1,
+        "productName": "Casual Shirt",
+        "productCategory": "shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "3000",
+        "newPrice": "2580",
+        "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11987164/2020/7/7/3252c353-32e3-4ccc-9a2d-9101957b4fcb1594113095777-Roadster-Women-Navy-Blue--Pink-Regular-Fit-Checked-Casual-Sh-1.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 2,
+        "productName": "Top Wear",
+        "productCategory": "shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "price": "2000",
+        "image": "https://rukminim2.flixcart.com/image/550/650/xif0q/shirt/e/f/d/m-wsr0052-chimpaaanzee-original-imagbpbycgqhk3u6-bb.jpeg?q=90&crop=false",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 3,
+        "productName": "Silm cotton t-shirt",
+        "productCategory": "t-shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "1000",
+        "newPrice": "850",
+        "image": "https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2142812/2019/3/1/009137d1-0f88-4694-9ad4-7afb31039d4e1551439168225-Roadster-Women-Black-Printed-Round-Neck-Drop-Shoulder-T-shir-1.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 4,
+        "productName": "cotton t-shirt",
+        "productCategory": "t-shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "2000",
+        "newPrice": "1650",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeOq5UWtHUiAzCHG7tbzpBCnuD9XzBRsVfnA&usqp=CAU",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 5,
+        "productName": "Bumber Jacket",
+        "productCategory": "jacket",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "price": "3500",
+        "image": "https://thursdayboots.com/cdn/shop/files/1024x1024-Mens-Jackets-Racer-Taupe-230518-1_10da61e4-3d98-49f7-9ae9-687c270a359b.jpg?v=1684442746",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 6,
+        "productName": "Bumber Jacket",
+        "productCategory": "jacket",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "3500",
+        "newPrice": "2650",
+        "image": "https://www.kosha.co/journal/wp-content/uploads/2022/07/winter-jacket-for-men.jpeg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 7,
+        "productName": "slim shirt",
+        "productCategory": "shirt",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "price": "2500",
+        "image": "https://5.imimg.com/data5/XO/AE/MY-39077357/mens-check-shirts-500x500.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 8,
+        "productName": "fashonable shirt",
+        "productCategory": "shirt",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "2250",
+        "newPrice": "1850",
+        "image": "https://static.zara.net/photos///2023/I/0/2/p/7545/543/044/2/w/404/7545543044_2_1_1.jpg?ts=1697450909893",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 9,
+        "productName": "Casual Shirt",
+        "productCategory": "shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "3000",
+        "newPrice": "2580",
+        "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/11987164/2020/7/7/3252c353-32e3-4ccc-9a2d-9101957b4fcb1594113095777-Roadster-Women-Navy-Blue--Pink-Regular-Fit-Checked-Casual-Sh-1.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 10,
+        "productName": "Top Wear",
+        "productCategory": "shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "price": "2000",
+        "image": "https://rukminim2.flixcart.com/image/550/650/xif0q/shirt/e/f/d/m-wsr0052-chimpaaanzee-original-imagbpbycgqhk3u6-bb.jpeg?q=90&crop=false",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 11,
+        "productName": "Silm cotton t-shirt",
+        "productCategory": "t-shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "1000",
+        "newPrice": "850",
+        "image": "https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2142812/2019/3/1/009137d1-0f88-4694-9ad4-7afb31039d4e1551439168225-Roadster-Women-Black-Printed-Round-Neck-Drop-Shoulder-T-shir-1.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 12,
+        "productName": "cotton t-shirt",
+        "productCategory": "t-shirt",
+        "category": "women",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "2000",
+        "newPrice": "1650",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeOq5UWtHUiAzCHG7tbzpBCnuD9XzBRsVfnA&usqp=CAU",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 13,
+        "productName": "Bumber Jacket",
+        "productCategory": "jacket",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "3500",
+        "newPrice": "2650",
+        "image": "https://thursdayboots.com/cdn/shop/files/1024x1024-Mens-Jackets-Racer-Taupe-230518-1_10da61e4-3d98-49f7-9ae9-687c270a359b.jpg?v=1684442746",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 14,
+        "productName": "Bumber Jacket",
+        "productCategory": "jacket",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "price": "3500",
+        "image": "https://www.kosha.co/journal/wp-content/uploads/2022/07/winter-jacket-for-men.jpeg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 15,
+        "productName": "slim shirt",
+        "productCategory": "shirt",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "2500",
+        "newPrice": "1950",
+        "image": "https://5.imimg.com/data5/XO/AE/MY-39077357/mens-check-shirts-500x500.jpg",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 16,
+        "productName": "fashonable shirt",
+        "productCategory": "shirt",
+        "category": "men",
+        "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
+        "oldPrice": "2250",
+        "newPrice": "1850",
+        "image": "https://static.zara.net/photos///2023/I/0/2/p/7545/543/044/2/w/404/7545543044_2_1_1.jpg?ts=1697450909893",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    }
+]
