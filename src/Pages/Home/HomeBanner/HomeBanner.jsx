@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomeBanner.css';
-import Banner from '../../../../src/assets/images/Banner.jpg';
-
+// import Banner from '../../../../src/assets/images/Banner.jpg';
+import Banner from '../../../../src/assets/images/Homepage-Banner.png'
 const HomeBanner = () => {
     return (
         <>

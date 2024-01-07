@@ -24,11 +24,14 @@ span {
     display: inline-block;
     position: relative;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .link:hover {
     color: black !important;
 }
+
 
 .link:after {
     content: '';
@@ -48,4 +51,17 @@ span {
     border-radius: 50%;
     transform: scaleX(95%);
     transform-origin: center;
+}
+
+.searchbar {
+    padding: 12px 16px;
+    border: none;
+    /* background-color: #f7f6f6; */
+    outline: none;
+    margin-right: 15px;
+    border-radius: 6px;
+    width: 14rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }

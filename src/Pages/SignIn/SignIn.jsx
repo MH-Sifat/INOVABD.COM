@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 // import './SignIn.css';
 import { MdEmail } from "react-icons/md";
 import { FaLock } from "react-icons/fa";
@@ -17,7 +17,8 @@ const SignIn = () => {
     const navigate = useNavigate();
     const from = location.state?.from?.pathname || '/';
 
-
+    const [userEmail, setUserEmail] = useState('');
+    console.log(userEmail);
     const handleLogIn = (data) => {
         console.log(data);
         signIn(data.email, data.password)
@@ -51,6 +52,44 @@ const SignIn = () => {
             })
     }
 
+    const handleEmailBlur = (e) => {
+        const email = e.target.value;
+        setUserEmail(email);
+    }
+
+    const handleForgetPassword = () => {
+        if (!userEmail) {
+            toast.error('please enter your mail', {
+                position: "top-left",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+            return;
+        }
+        else {
+            forgetPassword(userEmail)
+                .then(() => {
+                    toast.info('please check your mail and reset password', {
+                        position: "top-left",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                        theme: "dark",
+                    });
+                })
+                .catch(error => console.log(error))
+
+        }
+    }
+
     return (
 
         <div className='flex justify-center items-center min-h-[80vh] md:min-h-[70vh] lg:min-h-[100vh]'>
@@ -62,6 +101,10 @@ const SignIn = () => {
                             <div className='flex items-center relative'>
                                 <MdEmail className='absolute ml-2' />
                                 <input type="email" placeholder="user mail"
+                                    name='email'
+                                    {...register("email", {
+                                        onBlur: (e) => handleEmailBlur(e)
+                                    })}
                                     {...register("email", { required: "required" })} />
                             </div>
                             {errors.email && <p className='text-red-500'>{errors.email?.message}</p>}
@@ -77,7 +120,7 @@ const SignIn = () => {
                             {errors.password && <p className='text-red-500'>{errors.password?.message}</p>}
 
                             <div className="forgot">
-                                <a href="#">Forgot Password ?</a>
+                                <button onClick={handleForgetPassword}>Forgot Password ?</button>
                             </div>
                         </div>
                         <input className="sign mt-8" type='submit' value='Sign in' />

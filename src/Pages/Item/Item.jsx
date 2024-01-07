@@ -3,7 +3,7 @@ import './Item.css';
 import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {
-    const { id, productName, oldPrice, newPrice, image, price } = product;
+    const { id, productName, productCategory,oldPrice, newPrice, image, price } = product;
 
     return (
         <div>
@@ -16,11 +16,12 @@ const Item = ({ product }) => {
                 {/* <div className='overlay'>
                     <div className='button-container'>
                         <button onClick={() => { addToCart(props.id) }}><img src="../../../src/assets/images/cart_icon.png" alt="" /></button>
-                        <button><Link to={`/product/${props.id}`}><img src="../../../src/assets/images/cart_icon.png" alt="" /></Link></button>
+                     <Link to={`/product/${props.id}`}><img src="../../../src/assets/images/cart_icon.png" alt="" /></Link>
                     </div>
                 </div> */}
 
                 <Link><p className='font-medium hover:text-red-500'>{productName}</p></Link>
+                <Link><p className='font-medium hover:text-red-500'>{productCategory}</p></Link>
                 <div className='item-prices'>
                     {
                         price ?

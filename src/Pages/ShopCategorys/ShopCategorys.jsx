@@ -1,0 +1,48 @@
+import React from 'react';
+import { useQuery } from 'react-query';
+import Item from '../Item/Item';
+import SidebarFilter from './SidebarFilter/SidebarFilter';
+
+const ShopCategorys = (props) => {
+    const { data: products = [], refetch } = useQuery({
+        queryKey: ['products'],
+        queryFn: async () => {
+            const res = await fetch('Products.JSON')
+            const data = await res.json();
+            return data;
+        }
+    })
+
+    console.log(products);
+
+    return (
+        <div className='flex w-full'>
+            <div className='w-[15%]'>
+                <SidebarFilter />
+            </div>
+            <div className='w-[85%] grid gap-12 sm:grid-col-1 md:grid-cols-3 xl:grid-cols-4 my-10'>
+                {
+                    products.map(product => {
+                        if (props.category === product.category) {
+                            return <Item
+                                key={product.id}
+                                product={product}
+                            ></Item>
+                        }
+                        if (props.category === product.category && props.productCategory === product.productCategory) {
+                            return <Item
+                                key={product.id}
+                                product={product}
+                            ></Item>
+                        }
+                        else {
+                            return null;
+                        }
+                    })
+                }
+            </div>
+        </div>
+    );
+};
+
+export default ShopCategorys;

@@ -12,7 +12,7 @@ const SignUp = () => {
 
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
-    const { createUser, updateUser, verifyEmail, googleLogIn } = useContext(AuthContext);
+    const { createUser, updateUser, verifyEmail, googleLogIn, facebookLogIn } = useContext(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -39,7 +39,7 @@ const SignUp = () => {
                 }
                 updateUser(userInfo)
                     .then(() => {
-                        // savedUser(data.name, data.email)
+                        savedUser(data.name, data.email)
                         console.log(data.name, data.email);
 
                     })
@@ -90,13 +90,74 @@ const SignUp = () => {
                     progress: undefined,
                     theme: "dark",
                 });
+                savedUser(user.displayName, user.email)
                 // navigate(from, { replace: true })
 
             })
             .catch(error => {
                 console.log('error', error);
+                toast.error(error.message, {
+                    position: "top-left",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                });
             })
     }
+
+    const handleFacebookLogIn = (e) => {
+        e.preventDefault();
+        facebookLogIn()
+            .then(result => {
+                const user = result.user;
+                toast.success('Log in successful', {
+                    position: "top-left",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                });
+                savedUser(user.displayName, user.email)
+                // navigate(from, { replace: true })
+            })
+            .catch(error => {
+                console.log('error', error);
+                toast.error(error.message, {
+                    position: "top-left",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                });
+            })
+    }
+
+    const savedUser = (name, email) => {
+        const user = { name, email };
+        fetch('http://localhost:3000/users', {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(user)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                // navigate('/')
+            })
+    }
+
     return (
         <div className='flex justify-center items-center min-h-[80vh] md:min-h-[70vh] lg:min-h-[100vh]'>
             <div className='flex justify-center items-center mt-6 md:mt-0'>
@@ -143,7 +204,7 @@ const SignUp = () => {
                         <div className="line"></div>
                     </div>
                     <div className="social-icons">
-                        <button className="icon">
+                        <button onClick={handleFacebookLogIn} className="icon">
                             <FaFacebook className='w-8 h-8 text-blue-500 bg-white rounded-full' />
 
                         </button>

@@ -10,11 +10,11 @@ const UpperFooter = () => {
 
             <div className='h-12 flex justify-center items-center text-black text-3xl'>
                 <div className='w-60 md:w-64 lg:w-72 flex justify-around'>
-                    <Link className='hover:text-blue-500 hover:bg-white rounded-full'><FaFacebook /></Link>
-                    <Link className='rounded-md instagram'><FaInstagram /></Link>
-                    <Link className='hover:text-white hover:bg-[#25D366] rounded-md'><FaWhatsapp  className='p-0.5'/></Link>
-                    <Link className='rounded-md hover:bg-black hover:text-white'><FaTiktok className='p-1' /></Link>
-                    <Link className='hover:text-red-500 hover:bg-white rounded-lg'><FaYoutube /></Link>
+                    <Link className='hover:text-blue-500 hover:bg-white rounded-full border-2'><FaFacebook className='p-[px]'/></Link>
+                    <Link className='rounded-full instagram border-2 bg-black text-white'><FaInstagram className='p-[4px]' /></Link>
+                    <Link className='hover:text-white hover:bg-[#25D366] rounded-full border-2 bg-black text-white'><FaWhatsapp  className='p-[4px]'/></Link>
+                    <Link className='rounded-full hover:bg-black hover:text-white border-2 '><FaTiktok className='p-[6px]' /></Link>
+                    <Link className='hover:text-red-500 hover:bg-white rounded-full border-2 bg-black text-white'><FaYoutube className='p-[4px]' /></Link>
                 </div>
             </div>
         </>
