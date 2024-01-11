@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "color": "red",
         "productName": "Casual Shirt",
         "productCategory": "shirt",
         "category": "women",
@@ -17,6 +18,7 @@
     },
     {
         "id": 2,
+        "color": "white",
         "productName": "Top Wear",
         "productCategory": "shirt",
         "category": "women",
@@ -32,12 +34,13 @@
     },
     {
         "id": 3,
+        "color": "white",
         "productName": "Silm cotton t-shirt",
-        "productCategory": "t-shirt",
+        "productCategory": "tshirt",
         "category": "women",
         "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
-        "oldPrice": "1000",
-        "newPrice": "850",
+        "oldPrice": "5000",
+        "newPrice": "4000",
         "image": "https://assets.myntassets.com/fl_progressive/h_960,q_80,w_720/v1/assets/images/2142812/2019/3/1/009137d1-0f88-4694-9ad4-7afb31039d4e1551439168225-Roadster-Women-Black-Printed-Round-Neck-Drop-Shoulder-T-shir-1.jpg",
         "sizes": [
             "S",
@@ -48,12 +51,13 @@
     },
     {
         "id": 4,
+        "color": "black",
         "productName": "cotton t-shirt",
-        "productCategory": "t-shirt",
+        "productCategory": "tshirt",
         "category": "women",
         "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
-        "oldPrice": "2000",
-        "newPrice": "1650",
+        "oldPrice": "6000",
+        "newPrice": "5000",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeOq5UWtHUiAzCHG7tbzpBCnuD9XzBRsVfnA&usqp=CAU",
         "sizes": [
             "S",
@@ -64,6 +68,7 @@
     },
     {
         "id": 5,
+        "color": "black",
         "productName": "Jeans pant",
         "productCategory": "pant",
         "category": "men",
@@ -79,6 +84,7 @@
     },
     {
         "id": 6,
+        "color": "black",
         "productName": "chino pant",
         "productCategory": "pant",
         "category": "men",
@@ -95,6 +101,7 @@
     },
     {
         "id": 7,
+        "color": "blue",
         "productName": "slim tshirt",
         "productCategory": "tshirt",
         "category": "men",
@@ -110,6 +117,7 @@
     },
     {
         "id": 8,
+        "color": "blue",
         "productName": "fashonable tshirt",
         "productCategory": "tshirt",
         "category": "men",
@@ -126,6 +134,7 @@
     },
     {
         "id": 9,
+        "color": "blue",
         "productName": "golden purse",
         "productCategory": "purse",
         "category": "women",
@@ -136,6 +145,7 @@
     },
     {
         "id": 10,
+        "color": "blue",
         "productName": "Short purse",
         "productCategory": "purse",
         "category": "women",
@@ -145,6 +155,7 @@
     },
     {
         "id": 11,
+        "color": "red",
         "productName": "Leather bag",
         "productCategory": "bag",
         "category": "women",
@@ -155,6 +166,7 @@
     },
     {
         "id": 12,
+        "color": "red",
         "productName": "Leather bag",
         "productCategory": "bag",
         "category": "women",
@@ -171,6 +183,7 @@
     },
     {
         "id": 13,
+        "color": "red",
         "productName": "Bumber Jacket",
         "productCategory": "jacket",
         "category": "men",
@@ -207,7 +220,7 @@
         "category": "men",
         "description": "Casual wear for men,Super comfortable fabric,adipisicing elit. Exercitationem sequi tempora iste esse velit asperiores necessitatibus labore quos a officia quasi nise.",
         "oldPrice": "2500",
-        "newPrice": "1950",
+        "newPrice": "2000",
         "image": "https://5.imimg.com/data5/XO/AE/MY-39077357/mens-check-shirts-500x500.jpg",
         "sizes": [
             "S",

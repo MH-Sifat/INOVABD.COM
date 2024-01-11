@@ -5,9 +5,9 @@ import FilterColor from './FilterColor/FilterColor';
 import './SidebarFilter.css';
 
 const SidebarFilter = () => {
+
     return (
         <div className='sidebar'>
-
             <FilterCategory />
             <FilterPrice />
             <FilterColor />

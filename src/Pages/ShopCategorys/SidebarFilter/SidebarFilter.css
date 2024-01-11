@@ -1,6 +1,6 @@
-.sidebar{
-    width: 15%;
-    position: fixed;
+.sidebar {
+    /* width: 15%;
+    position: fixed; */
     height: 100%;
     border-right: 2px solid #e5e5e5;
     z-index: 3;
@@ -8,3 +8,4 @@
     flex-direction: column;
     align-items: center;
 }
+

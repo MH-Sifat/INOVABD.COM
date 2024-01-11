@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './Header.css';
 import logo from '../../../../src/assets/images/INOVA-tag.jpg'
 import { FaRegHeart } from "react-icons/fa";
@@ -6,11 +6,13 @@ import { FaCartShopping } from "react-icons/fa6";
 import { LuUser2 } from "react-icons/lu";
 import { Link } from 'react-router-dom';
 import { CiSearch } from "react-icons/ci";
+import { AuthContext } from '../../../Authprovider/Authprovider';
 
 
 const Header = () => {
     const [status, setStatus] = useState(false);
     const [cart, setCart] = useState(false);
+    const { handleInputChange, handleClick } = useContext(AuthContext)
 
     return (
         <>
@@ -25,7 +27,7 @@ const Header = () => {
                             <Link to='/men' className='link'><li>MAN</li></Link>
                             <div className='hidden group-hover:flex flex-col absolute left-0 p-10 w-full'>
                                 <div className='grid grid-cols-4 gap-5 bg-base-100 p-10 border-b-2 border-inherit border-solid'>
-                                    <li><Link to='/men/shirt' className='link'>Formal Shirt</Link></li>
+                                    <li><button onClick={handleClick} value="tshirt" className='link'>Formal Shirt</button></li>
                                     <li><Link className='link'>T-Shirt</Link></li>
                                     <li><Link className='link'>Casual Pant</Link></li>
                                     <li><Link className='link'>wallet</Link></li>
@@ -67,7 +69,7 @@ const Header = () => {
                     <div className='w-24 md:w-96 flex justify-around items-center'>
                         <div className='hidden md:flex items-center relative'>
                             <CiSearch className='absolute text-xl text-slate-500 ml-[195px]' />
-                            <input type="text" placeholder='search here...' className='searchbar' />
+                            <input onChange={handleInputChange} type="text" placeholder='search here...' className='searchbar' />
                         </div>
                         <div onClick={() => setCart(true)} className="indicator">
                             <FaCartShopping className='text-2xl text-primary hover:text-black' />

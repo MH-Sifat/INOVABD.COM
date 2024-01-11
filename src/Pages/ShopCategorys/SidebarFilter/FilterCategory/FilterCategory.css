@@ -1,11 +1,11 @@
-.category-title {
+.sidebar-title {
     font-size: 22px;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-.category-label-container {
+.sidebar-label-container {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -15,10 +15,9 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
 }
 
-.category-label-container input {
+.sidebar-label-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -26,7 +25,7 @@
 
 .checkmark {
     position: absolute;
-    top: 0;
+    top: 1px;
     left: 0;
     height: 20px;
     width: 20px;
@@ -35,11 +34,11 @@
     border-radius: 50%;
 }
 
-.category-label-container:hover input~.checkmark {
+.sidebar-label-container:hover input~.checkmark {
     background-color: #ccc;
 }
 
-.category-label-container input:checked~.checkmark {
+.sidebar-label-container input:checked~.checkmark {
     background-color: #2196f3;
 }
 
@@ -49,13 +48,13 @@
     display: none;
 }
 
-.category-label-container input:checked~.checkmark::after {
+.sidebar-label-container input:checked~.checkmark::after {
     display: block;
 }
 
-.category-label-container .checkmark::after{
+.sidebar-label-container .checkmark::after {
     top: 5.5px;
-    left: 6px;
+    left: 5px;
     width: 8px;
     height: 8px;
     background: #fff;

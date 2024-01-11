@@ -3,7 +3,7 @@ import './Item.css';
 import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {
-    const { id, productName, productCategory,oldPrice, newPrice, image, price } = product;
+    const { id, color, productName, productCategory, oldPrice, newPrice, image, price } = product;
 
     return (
         <div>
@@ -22,6 +22,7 @@ const Item = ({ product }) => {
 
                 <Link><p className='font-medium hover:text-red-500'>{productName}</p></Link>
                 <Link><p className='font-medium hover:text-red-500'>{productCategory}</p></Link>
+                <Link><p className='font-medium hover:text-red-500'>{color}</p></Link>
                 <div className='item-prices'>
                     {
                         price ?
